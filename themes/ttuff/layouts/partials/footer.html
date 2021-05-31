@@ -1,7 +1,7 @@
 <!----------------------------Footer--------------->
-<div class="flex flex-wrap  bg-black p-6 text-white text-opacity-7.0 mt-6">
+<div class="flex flex-wrap justify-center bg-black p-6 text-white text-opacity-7.0 mt-6">
     <div class="container flex flex-wrap mb-4">
-      <div class="w-full flex justify-between gap-4  ">
+      <div class="w-full grid md:grid-cols-3 gap-4  ">
         <div>
         <a href="#" class="md:ml-4 flex items-center justify-start lg:mb-0 mb-4 pointer-cursor">
           <img class=" w-32 h-18 border-2 border-transparent md:ml-0 sm:ml-20" src="/images/home-image/tentuff-logo.png" alt="">
@@ -19,12 +19,19 @@
               </svg>
             </div>
         </div> 
-        
+        <div>
+          <ul class=" md:flex w-full md:w-auto text-left  md:mt-0   border-none">   
+            <li><a href="{{ .Site.BaseURL }}" class="block md:inline-block text-gray-500  px-2 py-3 border-none">Home</a></li>
+            <li><a href="/privacy/" class="block md:inline-block text-gray-500  px-2 py-3 border-none">Privacy</a></li>
+            <li><a href="/terms/" class="block md:inline-block text-gray-500  px-2 py-3 border-none">Terms of use</a></li>
+            <li><a href="/refund/" class="block md:inline-block text-gray-500  px-2 py-3 border-none">Refund Policy</a></li>
+          </ul>
+        </div>
       </div>
 
 
 
-      <div class="w-full flex justify-be gap-x-10">
+      <div class="w-full grid md:grid-cols-3 gap-4 mt-14">
         <div>
           
         <ul class="leading-tight">
@@ -32,15 +39,14 @@
             
             <path d="M10 2.009c-2.762 0-5 2.229-5 4.99 0 4.774 5 11 5 11s5-6.227 5-11c0-2.76-2.238-4.99-5-4.99zM10 9.76c-1.492 0-2.7-1.209-2.7-2.7s1.208-2.7 2.7-2.7c1.49 0 2.699 1.209 2.699 2.7s-1.209 2.7-2.699 2.7z"></path>
             </svg><span class="text-gray-300 ml-4 text-xl">Address</span></li>
-          <li class="text-gray-300">TENTUFF</li>
-          <li class="text-gray-300">SSA India,</li>
-          <li class="text-gray-300">#2968, 4th Cross, Off 12th Main Road,</li>
-          <li class="text-gray-300">Indiranagar, Bangalore - 560038</li>
+          <li class="text-gray-300 ml-10 ">TENTUFF</li>
+          <li class="text-gray-300 ml-10 ">SSA India,</li>
+          <li class="text-gray-300 ml-10 ">#2968, 4th Cross, Off 12th Main Road,</li>
+          <li class="text-gray-300 ml-10 ">Indiranagar, Bangalore - 560038</li>
           
         </ul> 
           
         </div>
-      <div>
       <div>
         
         <svg class="inline-block w-6 h-6" position=""  fill="#d7d8d9">
@@ -64,15 +70,6 @@
          
           <li  class="ml-4 text-gray-300">1800-572-3613</a></li>
           </ul>
-      </div>
-      </div>
-      <div>
-        <ul class="  w-full md:w-auto text-left  md:mt-0   border-none">   
-          <li><a href="{{ .Site.BaseURL }}" class="block md:inline-block text-gray-500   border-none">Home</a></li>
-          <li><a href="/privacy/" class="block md:inline-block text-gray-500   border-none">Privacy</a></li>
-          <li><a href="/terms/" class="block md:inline-block text-gray-500   border-none">Terms of use</a></li>
-          <li><a href="/refund/" class="block md:inline-block text-gray-500   border-none">Refund Policy</a></li>
-        </ul>
       </div>
     </div>
     <div class=" mt-10 text-gray-300 md:ml-48 sm:ml-4">
