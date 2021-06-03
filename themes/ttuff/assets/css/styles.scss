@@ -7,14 +7,20 @@
 @import "fontstyles";
 @import "testimonal";
 
+
+#menu-toggle { 
+    position: relative;
+ }
+
 .dropdown:hover > .dropdown-content {
     display: inline-block;
+    position:absolute;
+
   }
   #menu-toggle:checked + #menu {
       display: block;
-     
-     
-    }
+ 
+     }
 
 ///////////////////////slider///////////////
 
