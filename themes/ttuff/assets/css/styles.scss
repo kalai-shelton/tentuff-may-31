@@ -15,13 +15,16 @@
 .dropdown:hover > .dropdown-content {
     display: inline-block;
     position:absolute;
+   
 
   }
   #menu-toggle:checked + #menu {
       display: block;
  
      }
-
+.door-menu{
+    width: 13rem;
+}
 ///////////////////////slider///////////////
 
 .carousel-open:checked + .carousel-item {
