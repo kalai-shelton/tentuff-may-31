@@ -20,7 +20,7 @@
  @media (max-width:973px){
     .dropdown:hover > .dropdown-content {
         display: inline-block;
-       
+        //position: fixed;
       
 }   
  }
@@ -33,14 +33,14 @@
  @media (min-width:974px){
  .door-menu{
     width:12.4rem;
-    //position: absolute;
+    
 }
  }
  @media (max-width:973px){
  .door-menu{
     //display: inline-block;
     width:10rem;
-    position: fixed;
+   
    
  }
 }
