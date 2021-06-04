@@ -1,24 +1,24 @@
 <!----------------------------Footer--------------->
-<div class="flex flex-wrap justify-center bg-black p-6 text-white text-opacity-7.0 mt-6">
-  <div class="container flex flex-wrap mb-4">
-    <div class="w-full grid md:grid-cols-3 gap-4 ">
+<div class="  bg-black p-6 text-white text-opacity-7.0 mt-6">
+  <div class="container flex flex-col mb-4">
+    <div class="w-full grid md:grid-cols-4 gap-4 ">
       <div class="place-self-center md:place-self-start">
       <a href="{{ .Site.BaseURL }}" class="md:ml-4 flex items-center justify-start lg:mb-0 mb-4 pointer-cursor">
         <img class=" w-32 h-18 border-2 border-transparent md:ml-0 sm:ml-20" src="/images/home-image/tentuff-logo.png" alt="">
       </a>  
       </div>
       
-      <div class="place-self-center  md:place-self-start py-4">
-        <ul class=" md:flex w-full md:w-auto text-left  md:mt-0   border-none">   
-          <li><a href="{{ .Site.BaseURL }}" class="block md:inline-block text-gray-500  px-2  border-none">Home</a></li>
-          <li><a href="/privacy/" class="block md:inline-block text-gray-500  px-2  border-none">Privacy</a></li>
-          <li><a href="/terms/" class="block md:inline-block text-gray-500  px-2  border-none">Terms of use</a></li>
-          <li><a href="/refund/" class="block md:inline-block text-gray-500  px-2  border-none">Refund Policy</a></li>
+      <div class="place-self-center col-span-2 md:place-self-auto py-4 md:py-0">
+        <ul class=" flex flex-col md:flex-row w-full text-left   border-none">   
+          <li class="flex-none"><a href="{{ .Site.BaseURL }}" class="block md:inline-block text-gray-500  px-2  border-none">Home</a></li>
+          <li class="flex-none"><a href="/privacy/" class="block md:inline-block text-gray-500  px-2  border-none">Privacy</a></li>
+          <li class="flex-none"><a href="/terms/" class="block md:inline-block text-gray-500  px-2  border-none">Terms of use</a></li>
+          <li class="flex-none"><a href="/refund/" class="block md:inline-block text-gray-500  px-2  border-none">Refund Policy</a></li>
         </ul>
       </div>
  
 
-    <div class="border-b border-gray-500  ">
+    <div class="border-b border-gray-500 md:place-self-auto ">
       <div class="mb-8 flex justify-center">
         <a class="footer-facebook-icon" href="https://www.facebook.com/tentuff/" target="_blank">
       <svg class="inline-block w-6 h-6" position=""  fill="#d7d8d9"  >
@@ -70,17 +70,19 @@
       
       <ul >
        
-        <li  class="ml-4 text-gray-300">1800-572-3613</a></li>
+        <li  class="ml-10 text-gray-300">1800-572-3613</a></li>
         </ul>
     </div>
   </div>
-  <div class=" mt-10 text-gray-300 md:ml-48 sm:ml-4">
+  <div class="flex space-x-4 justify-center">
+  <div class="text-gray-300 ">
     copyright TENTUFF (SSA India)
   </div>
-  <div class="ml-10 mt-10 text-gray-300">
+  <div class="text-gray-300">
     <a class=" text-gray-300 text-xs "href="https://www.inarvo.com" target="_blank">www.inarvo.com</a>
 
   </div>
+</div>
 </div>
 
 
